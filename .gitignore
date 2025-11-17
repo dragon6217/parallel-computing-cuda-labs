@@ -45,12 +45,7 @@
 **/log.txt
 **/Output.txt
 **/output.bin
-
-# Ignore large data files from HW3
-**/data/input_2048.txt
-**/data/output_2048.txt
-**/data/input_4096.txt
-**/data/output_4096.txt
+**/*.txt
 
 # Ignore Condor/backup files
 **/*.cmd

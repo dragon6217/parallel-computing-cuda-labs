@@ -1,6 +1,8 @@
 # This file tells Git which files and directories to ignore.
 # These rules apply to all subdirectories (HW1, HW2, etc.).
 
+
+
 # 1. Compiled Executables
 # These are the specific output files from Makefiles.
 # We will add the executable name for each assignment here.
@@ -20,7 +22,6 @@
 
 
 
-
 # 2. Object files
 # This is a generic pattern for intermediate compilation files.
 **/*.o
@@ -28,6 +29,7 @@
 # EXCEPTION: Do NOT ignore the provided driver.o files
 # These are essential pre-compiled binaries needed for linking.
 !**/build/driver.o
+
 
 
 # 3. Output, Log, and Temporary Files
@@ -59,12 +61,21 @@
 **/ori-README.md
 
 
+
 # 4. OS-specific files
 # Generic pattern for macOS metadata
 **/.DS_Store
+
 
 
 # 5. IDE Configuration Files
 # Generic patterns for IDE settings
 **/.vscode/
 **/.idea/
+
+
+
+# 6. Doxygen Output Files
+# Ignore the generated documentation folders
+**/html/
+**/latex/

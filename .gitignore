@@ -9,7 +9,8 @@
 # From HW2
 **/HTtest
 # From HW3
-
+**/generate
+**/matmul
 # From HW4
 
 # From HW5
@@ -23,6 +24,10 @@
 # 2. Object files
 # This is a generic pattern for intermediate compilation files.
 **/*.o
+
+# EXCEPTION: Do NOT ignore the provided driver.o files
+# These are essential pre-compiled binaries needed for linking.
+!**/build/driver.o
 
 
 # 3. Output, Log, and Temporary Files
@@ -38,6 +43,12 @@
 **/log.txt
 **/Output.txt
 **/output.bin
+
+# Ignore large data files from HW3
+**/data/input_2048.txt
+**/data/output_2048.txt
+**/data/input_4096.txt
+**/data/output_4096.txt
 
 # Ignore Condor/backup files
 **/*.cmd

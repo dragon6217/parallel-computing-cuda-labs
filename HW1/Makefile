@@ -1,6 +1,6 @@
 # 1D filter 			#1073741824
 run: filter 
-	./filter 33554466
+	./filter 335544667
 
 filter: filter.cc 
 	g++ -std=c++11 -O3 -g -pthread  $< -o $@ -lboost_system  -lboost_thread  -march=znver2

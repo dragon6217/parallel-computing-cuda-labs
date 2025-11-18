@@ -14,7 +14,7 @@
 **/generate
 **/matmul
 # From HW4
-
+**/jointable
 # From HW5
 
 # From HW6
@@ -46,6 +46,7 @@
 **/Output.txt
 **/output.bin
 **/*.txt
+**/*.bin
 
 # Ignore Condor/backup files
 **/*.cmd

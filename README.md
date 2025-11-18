@@ -4,7 +4,7 @@
 
 **C++11**, **OpenMP**, **CUDA**를 사용하여 데이터 병렬성, 동시성 제어, 메모리 계층 최적화, GPGPU 가속 등 다양한 병렬 처리 문제를 해결하고 성능을 극대화했습니다.
 
-## 🚀 Projects Overview (핵심 성과)
+## Projects Overview (핵심 성과)
 
 총 6개의 프로젝트를 통해 **Naive 구현 대비 수십 배 이상의 성능 향상**을 달성했습니다.
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 📚 Project Details
+## Project Details
 
 ### 1. [HW1: 1D Image Filter](./HW1)
 * **문제:** 대용량 1D 배열의 컨볼루션 연산 속도 저하.
@@ -53,7 +53,7 @@
 
 ---
 
-## 🛠️ Environments & Tools
+## Environments & Tools
 
 * **Languages:** C++11, CUDA C++
 * **Libraries:** OpenMP, STL, GCC Parallel Extensions

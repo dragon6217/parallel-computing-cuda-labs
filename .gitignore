@@ -18,7 +18,7 @@
 # From HW5
 
 # From HW6
-
+**/pr
 
 
 
@@ -47,6 +47,7 @@
 **/output.bin
 **/*.txt
 **/*.bin
+**/*.el
 
 # Ignore Condor/backup files
 **/*.cmd
